@@ -1,0 +1,5 @@
+Felhasználónév - Jelszó:
+
+admin - admin
+akos - asd
+teszt -teszt

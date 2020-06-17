@@ -1,0 +1,56 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/background/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+.bg-header {
+    background-color: #343a4059;
+}
+
+.bg-content {
+    background-color: #343a40c4;
+}
+
+.text-orange {
+    color: salmon;
+}
+
+.text-orange:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(253, 176, 167);
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-style-decimal {
+    list-style: decimal;
+}
+
+footer {
+    position: static;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f2327ed!important;
+    color: white;
+    text-align: center;
+}
